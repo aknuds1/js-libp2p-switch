@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-switch",
-  "version": "0.42.13",
+  "version": "0.42.14",
   "description": "libp2p switch implementation in JavaScript",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
@@ -68,8 +68,8 @@
     "fsm-event": "^2.1.0",
     "hashlru": "^2.3.0",
     "interface-connection": "~0.3.3",
-    "libp2p-circuit": "~0.3.6",
-    "libp2p-identify": "~0.7.6",
+    "@arve.knudsen/libp2p-circuit": "~0.3.7",
+    "@arve.knudsen/libp2p-identify": "~0.7.7",
     "moving-average": "^1.0.0",
     "multiaddr": "^6.0.6",
     "multistream-select": "~0.14.4",

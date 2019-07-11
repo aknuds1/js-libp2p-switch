@@ -16,7 +16,7 @@ const TCP = require('libp2p-tcp')
 const secio = require('libp2p-secio')
 const multiplex = require('pull-mplex')
 const pull = require('pull-stream')
-const identify = require('libp2p-identify')
+const identify = require('@arve.knudsen/libp2p-identify')
 
 const utils = require('./utils')
 const createInfos = utils.createInfos

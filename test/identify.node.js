@@ -12,7 +12,7 @@ const pull = require('pull-stream')
 const secio = require('libp2p-secio')
 const PeerInfo = require('@arve.knudsen/peer-info')
 const PeerBook = require('peer-book')
-const identify = require('libp2p-identify')
+const identify = require('@arve.knudsen/libp2p-identify')
 const lp = require('pull-length-prefixed')
 const sinon = require('sinon')
 
