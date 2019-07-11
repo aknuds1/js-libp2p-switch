@@ -6,8 +6,8 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
 
-const peerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const peerId = require('@arve.knudsen/peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const WebRTCStar = require('libp2p-webrtc-star')
 const spdy = require('libp2p-spdy')
 const parallel = require('async/parallel')

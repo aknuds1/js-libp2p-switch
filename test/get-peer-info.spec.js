@@ -7,8 +7,8 @@ const expect = chai.expect
 chai.use(dirtyChai)
 
 const PeerBook = require('peer-book')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
 const MultiAddr = require('multiaddr')
 const TestPeerInfos = require('./test-data/ids.json').infos
 

@@ -1,7 +1,7 @@
 'use strict'
 
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
 const parallel = require('async/parallel')
 const WebSockets = require('libp2p-websockets')
 const pull = require('pull-stream')

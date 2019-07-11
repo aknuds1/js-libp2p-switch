@@ -7,8 +7,8 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
 
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const WebSockets = require('libp2p-websockets')
 const mplex = require('pull-mplex')
 const spdy = require('libp2p-spdy')
